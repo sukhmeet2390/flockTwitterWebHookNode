@@ -1,6 +1,6 @@
 {
   "name": "twitter-webhook-flock",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Search Twitter keyword and post it back to flock via webhooks",
   "homepage": "",
   "author": {
