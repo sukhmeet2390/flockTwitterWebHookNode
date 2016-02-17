@@ -1,21 +1,25 @@
 {
   "name": "twitter-webhook-flock",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Search Twitter keyword and post it back via webhooks",
-  "homepage": "",
   "author": {
     "name": "Sukhmeet Singh",
-    "email": "sukhmeet2390@gmail.com",
-    "url": ""
+    "email": "sukhmeet2390@gmail.com"
   },
   "files": [
     "lib"
   ],
   "main": "lib/index.js",
-  "keywords": [],
+  "keywords": [
+    "twitter",
+    "flock",
+    "webhook",
+    "twit"
+  ],
   "repository": "sukhmeet2390/flockTwitterWebHookNode",
-  "dependencies":{
-    "twit": "2.2.2"
+  "dependencies": {
+    "twit": "^2.2.1",
+    "axios": "^0.9.1"
     },
   "devDependencies": {
     "gulp": "^3.6.0",
