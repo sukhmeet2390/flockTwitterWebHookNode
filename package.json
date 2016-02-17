@@ -1,6 +1,6 @@
 {
   "name": "twitter-webhook-flock",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Search Twitter keyword and post it back via webhooks",
   "homepage": "",
   "author": {
@@ -14,7 +14,9 @@
   "main": "lib/index.js",
   "keywords": [],
   "repository": "sukhmeet2390/flockTwitterWebHookNode",
-
+  "dependencies":{
+    "twit": "2.2.2"
+    },
   "devDependencies": {
     "gulp": "^3.6.0",
     "gulp-eslint": "^1.0.0",
