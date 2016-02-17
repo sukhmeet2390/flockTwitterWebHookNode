@@ -1,7 +1,7 @@
 {
   "name": "twitter-webhook-flock",
-  "version": "0.0.2",
-  "description": "Search Twitter keyword and post it back to flock via webhooks",
+  "version": "0.0.3",
+  "description": "Search Twitter keyword and post it back via webhooks",
   "homepage": "",
   "author": {
     "name": "Sukhmeet Singh",
