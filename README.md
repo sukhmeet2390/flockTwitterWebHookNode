@@ -31,7 +31,7 @@ T.startTwitterInterval()
 MIT © [Sukhmeet Singh]()
 
 
-[npm-image]: https://badge.fury.io/js/ttwitter-webhook-flock.svg
+[npm-image]: https://badge.fury.io/js/twitter-webhook-flock.svg
 [npm-url]: https://npmjs.org/package/twitter-webhook-flock
 [travis-image]: https://travis-ci.org/sukhmeet2390/twitter-webhook-flock.svg?branch=master
 [travis-url]: https://travis-ci.org/sukhmeet2390/twitter-webhook-flock
