@@ -10,7 +10,7 @@ $ npm install --save twitter-webhook-flock
 ## Usage
 
 ```js
-var twitterWebHookNode = require('twitter-webhook-flock');
+var twitterWebHook = require('twitter-webhook-flock');
 
 var loginKeys = {
     consumerKey: <twitter.Consumer Key >
@@ -22,7 +22,7 @@ var flockPostUrl = <Incoming webhook URL >;
 var keyword = 'flockchat';
 var postInternval = 60*60*1000; // defaults to 24 hrs if not specified
 
-var T = new twitterWebHookNode(loginKeys, flockPostUrl, keyword, postInterval);
+var T = new twitterWebHook(loginKeys, flockPostUrl, keyword, postInterval);
 T.startTwitterInterval()
 
 ```
